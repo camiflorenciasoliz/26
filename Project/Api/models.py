@@ -9,3 +9,6 @@ class Alumnos(models.Model):
     Edad=models.IntegerField()
     Calle=models. TextField(max_length=50)
     Altura=models.IntegerField()
+
+    def __str__(self):
+        return self.DNI 
